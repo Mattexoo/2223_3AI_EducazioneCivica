@@ -1,30 +1,39 @@
-body, html{
+body,
+html {
     margin: 0px;
 }
 
 
-header{
+header {
     display: flex;
-    justify-content: center;
-    align-items: center; 
+    justify-content: space-around;
+    align-items: center;
     background-color: #8DA1B9;
     height: 150px;
     width: 100%;
     color: #D4DCFF;
 }
+
 .material-symbols-outlined {
     z-index: 1;
-      position: absolute;
-      right: 100px;
-    
-      font-variation-settings:
-      'FILL' 0,
-      'wght' 400,
-      'GRAD' 0,
-      'opsz' 48
-    }
+    right: 100px;
 
-main{
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+#link {
+    border: solid 3px black;
+    border-radius: 25px;
+    padding: 25px;
+    box-shadow: 5px 5px 3px #48cae4;
+    background-color: #C6DDF0;
+}
+
+main {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,39 +42,61 @@ main{
     background-color: #007FFF;
 }
 
-.F{
+.F {
     display: none;
 }
 
-.P{
+.P {
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     flex-direction: column;
     width: 60%;
-    border: solid 2px black;
+    border: solid 3px black;
     border-radius: 15px;
     padding: 20px;
     margin: 10px;
     background-color: #48cae4;
 }
 
-.P:focus > .F{
-    display: block;
-}
-.F:hover{
+.P:focus>.F {
     display: block;
 }
 
-#link{
-    border: solid 1 px black;
-    border-radius: 25 px;
+.F:hover {
+    display: block;
 }
 
-footer{
+table {
+    margin: 50px;
+}
+
+table,
+tr,
+td,
+th {
+    border: solid 3px black;
+    padding: 10px;
+    background-color: #B8BDB5;
+}
+
+.verde {
+    background-color: green;
+}
+
+.giallo {
+    background-color: yellow;
+}
+
+.rosso {
+    background-color: red;
+}
+
+
+footer {
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     background-color: #8DA1B9;
     color: #D4DCFF;
     height: 150px;
