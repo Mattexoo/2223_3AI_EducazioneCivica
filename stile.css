@@ -57,6 +57,11 @@ main{
     display: block;
 }
 
+#link{
+    border: solid 1 px black;
+    border-radius: 25 px;
+}
+
 footer{
     display: flex;
     justify-content: center;
